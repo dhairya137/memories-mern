@@ -1,0 +1,15 @@
+---
+application:
+  name: "memories-mern"
+  project: "memories-frontend"
+  organization: "QoveryCommunity"
+databases:
+- type: "MONGODB"
+  name: "memories"
+  version: "4.4"
+routers:
+- name: "main-memories-mern"
+  routes:
+  - application_name: "memories-mern"
+    paths:
+    - "/*"
